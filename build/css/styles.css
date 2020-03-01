@@ -396,7 +396,7 @@ li {
 
 @media (min-width: 1400px) {
   .background {
-    background: url(../images/mikocin.png) 100px 490px no-repeat, url(../../images/wave.png) 0 668px no-repeat, url(../images/feet.png) -16px 0 no-repeat, url(../images/herds.png) 366px 490px no-repeat, url(../images/bgrnd-rad.png) 40px 106px no-repeat, url(../images/logo-orange.png) 416px 14px no-repeat, url(../images/logo-green.png) 466px 40px no-repeat, url(../images/bgnd.png) no-repeat; }
+    background: url(../images/mikocin.png) 100px 490px no-repeat, url(../images/wave.png) 0 668px no-repeat, url(../images/feet.png) -16px 0 no-repeat, url(../images/herds.png) 366px 490px no-repeat, url(../images/bgrnd-rad.png) 40px 106px no-repeat, url(../images/logo-orange.png) 416px 14px no-repeat, url(../images/logo-green.png) 466px 40px no-repeat, url(../images/bgnd.png) no-repeat; }
   .main-price {
     left: 460px; }
   .main-price--green {
