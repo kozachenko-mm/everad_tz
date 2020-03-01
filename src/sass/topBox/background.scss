@@ -1,0 +1,104 @@
+.background {
+  position: relative;
+  margin-bottom: 30px;
+  background: url(../../images/mikocin.png) -40px 400px no-repeat,
+    url(../../images/feet.png) 4px -100px no-repeat,
+    url(../../images/bgrnd-rad.png) 0px -106px no-repeat,
+    url(../../images/logo-orange.png) 600px 14px no-repeat,
+    url(../../images/logo-green.png) 646px 40px no-repeat,
+    url(../../images/bgnd.png) no-repeat, #f3f9ff;
+}
+.main-price {
+  color: #ffffff;
+  background: url(../../images/svg/rub.svg) 68px no-repeat, $primary-color;
+  font-family: 'Roboto', serif;
+  font-size: 34px;
+  font-weight: 900;
+  width: 100px;
+  border-radius: 10px;
+  padding: 0 6px;
+  position: absolute;
+  top: 390px;
+  left: 300px;
+}
+.main-price--green {
+  top: 520px;
+  left: 400px;
+  background: url(../../images/svg/rub.svg) 68px no-repeat, $secondary-color;
+}
+
+@media (min-width: 1170px) {
+  .background {
+    background: url(../../images/mikocin.png) 600px 490px no-repeat,
+      url(../../images/wave.png) 0 668px no-repeat,
+      url(../../images/feet.png) 484px 0 no-repeat,
+      url(../../images/herds.png) 866px 490px no-repeat,
+      url(../../images/bgrnd-rad.png) 540px 106px no-repeat,
+      url(../../images/logo-orange.png) 916px 14px no-repeat,
+      url(../../images/logo-green.png) 966px 40px no-repeat,
+      url(../../images/bgnd.png) no-repeat;
+  }
+  .main-price {
+    top: 478px;
+    left: 960px;
+  }
+  .main-price--green {
+    top: 608px;
+    left: 1044px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .background {
+    background: url(../../images/mikocin.png) 100px 490px no-repeat,
+      url(../../images/wave.png) 0 668px no-repeat,
+      url(../../images/feet.png) -16px 0 no-repeat,
+      url(../../images/herds.png) 366px 490px no-repeat,
+      url(../../images/bgrnd-rad.png) 40px 106px no-repeat,
+      url(../../images/logo-orange.png) 416px 14px no-repeat,
+      url(../../images/logo-green.png) 466px 40px no-repeat,
+      url(../../images/bgnd.png) no-repeat;
+  }
+  .main-price {
+    left: 460px;
+  }
+  .main-price--green {
+    left: 544px;
+  }
+}
+@media (min-width: 1700px) {
+  .background {
+    background: url(../../images/mikocin.png) 400px 490px no-repeat,
+      url(../../images/wave.png) 0 668px no-repeat,
+      url(../../images/feet.png) 284px 0 no-repeat,
+      url(../../images/herds.png) 666px 490px no-repeat,
+      url(../../images/bgrnd-rad.png) 340px 106px no-repeat,
+      url(../../images/logo-orange.png) 716px 14px no-repeat,
+      url(../../images/logo-green.png) 766px 40px no-repeat,
+      url(../../images/bgnd.png) no-repeat;
+  }
+  .main-price {
+    left: 760px;
+  }
+  .main-price--green {
+    left: 844px;
+  }
+}
+@media (min-width: 2560px) {
+  .background {
+    background: url(../../images/mikocin.png) 600px 490px no-repeat,
+      url(../../images/wave.png) 0 668px no-repeat,
+      url(../../images/feet.png) 484px 0 no-repeat,
+      url(../../images/herds.png) 866px 490px no-repeat,
+      url(../../images/bgrnd-rad.png) 540px 106px no-repeat,
+      url(../../images/logo-orange.png) 916px 14px no-repeat,
+      url(../../images/logo-green.png) 966px 40px no-repeat,
+      url(../../images/bgnd.png) no-repeat;
+  }
+  .main-price {
+    left: 960px;
+  }
+  .main-price--green {
+    left: 1044px;
+  }
+}
